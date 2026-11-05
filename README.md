@@ -36,14 +36,14 @@ No instales dependencias ni actualices Omarchy sin explicar antes por qué hacen
 ## Instalación desde el clon
 
 ```bash
-gh repo clone Pierorivera1/omarchy-agents-widget
+git clone https://github.com/Pierorivera1/omarchy-agents-widget.git
 cd omarchy-agents-widget
 python -m unittest discover -s tests -v
 bash -n scripts/omarchy-agent-usage-update
 omarchy plugin validate "$PWD"
 ```
 
-El repositorio es privado; el desktop necesita acceso autenticado a GitHub.
+El repositorio es público; el desktop puede clonarlo sin acceso autenticado a GitHub.
 
 ### 1. Inspeccionar y respaldar
 
